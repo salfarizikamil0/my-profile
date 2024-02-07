@@ -1,39 +1,36 @@
-/* Colors and fonts*/
-
 body {
-	background-color: #F7F9FC;
+	background-color: #E8E8E8;
 	color: #575F7D;
 	font-family: 'Bitter', serif;
 	font-size: 16px;
 	font-weight: lighter;
 }
 
-h1,h2,h3 {
+h1,h2,h3,a {
 	font-family: 'Open Sans', sans-serif;
 }
 
 h1{
-	color: #386641;
+	color: #066C33;
 	font-size: 60px;
 	font-weight: 900;
 }
 
 h2 {
 	color: #28B666;
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: lighter;
 	font-weight: 300;
 }
 
 a {
-	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
-	color: #4052D0;
+	color: #386641;
 	transition: color 0.6s;
 	font-weight: bold;
 }
 a:hover {
-	color: #626893	;
+	color: #4052D0;
 }
 
 .img-circle {
@@ -41,47 +38,36 @@ a:hover {
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-/*.shadowed {
-	box-shadow: 5px 5px 3px black;
-}
-
-#leader {
-	border: 5px solid red;
-}
-*/
 element.style {
 	width: 700px;
 	margin: 30px auto;
 }
 
-/* CUstom deisgn with class */
 .container {
 	width: 700px;
 	margin: 40px auto;
 }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
 }
 
 .box-white {
+	background-color: white;
 	padding: 40px;
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 	border-radius: 6px;
 	margin: 20px 0px;
 	text-align: center;
@@ -90,7 +76,7 @@ element.style {
 .btn-blue {
 	background-color: #626893;
 	color: white;
-	padding: 15px 20px;
+	padding: 12px 12px;
 	border-radius: 4px;
 }
 
@@ -110,12 +96,12 @@ element.style {
 }
 .list-inline i {
 	font-size: 40px;
-	color: lightgreen;
+	color: #575F7D;
 }
 
 .list-inline i:hover {
 	color: black;
 
-#introduction p {
+#intro p {
 	margin-bottom: 40px;
 }
